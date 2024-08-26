@@ -56,7 +56,7 @@ const CLOSE_STREAM_SCHEMA = new ActionSchemaWithNonce("close_stream", {
 
 ### State transitions
 
-There are only 2 state transitions that can occur
+There are only 2 state [transitions](https://github.com/kautukkundan/token-stream-mru/blob/main/src/stackr/transitions.ts) that can occur
 
 - Create Stream
 - Close Stream
@@ -91,4 +91,3 @@ The current implementation is a simple version of the token streaming MRU. There
 
 - **Liquidation** - Implement a liquidation mechanism to allow users to liquidate their streams in case of a dispute.
 - **Curves** - Implement different curves for the flow rate of the streams. This will allow users to create streams with different flow rates.
--
